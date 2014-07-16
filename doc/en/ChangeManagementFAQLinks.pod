@@ -7,8 +7,6 @@ ChangeManagementFAQLinks - enable linking ITSMChangeManagement objects with FAQ 
 This package just adds a few SysConfig options to enable linking of FAQ entries with
 ITSM Changes and ITSM WorkOrders.
 
-=back
-
 =head1 AUTHOR AND LICENSE
 
 This package was written by Renee Baecker E<lt>otrs@perl-services.deE<gt>.
