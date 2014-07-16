@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_config version="1.0" init="Application">
+    <ConfigItem Name="LinkObject::PossibleLink###1111-ChangeFAQ" Required="0" Valid="1">
+        <Description Translatable="1">Links an ITSM Change with a FAQ entry.</Description>
+        <Group>ChangeManagementFAQLinks</Group>
+        <SubGroup>Core::LinkObject</SubGroup>
+        <Setting>
+            <Hash>
+                <Item Key="Object1">ITSMChange</Item>
+                <Item Key="Object2">FAQ</Item>
+                <Item Key="Type">Normal</Item>
+            </Hash>
+        </Setting>
+    </ConfigItem>
+    <ConfigItem Name="LinkObject::PossibleLink###1112-WorkorderFAQ" Required="0" Valid="1">
+        <Description Translatable="1">Links an ITSM WorkOrder with a FAQ entry.</Description>
+        <Group>ChangeManagementFAQLinks</Group>
+        <SubGroup>Core::LinkObject</SubGroup>
+        <Setting>
+            <Hash>
+                <Item Key="Object1">ITSMWorkOrder</Item>
+                <Item Key="Object2">FAQ</Item>
+                <Item Key="Type">Normal</Item>
+            </Hash>
+        </Setting>
+    </ConfigItem>
+</otrs_config>
