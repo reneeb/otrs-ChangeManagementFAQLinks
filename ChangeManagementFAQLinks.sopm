@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <otrs_package version="1.0">
-    <!-- GENERATED WITH OTRS::OPM::Maker::Command::sopm (1.21) -->
+    <!-- GENERATED WITH OTRS::OPM::Maker::Command::sopm (1.25) -->
     <Name>ChangeManagementFAQLinks</Name>
-    <Version>3.3.1</Version>
+    <Version>4.0.1</Version>
     <Framework>3.0.x</Framework>
     <Framework>3.1.x</Framework>
     <Framework>3.2.x</Framework>
     <Framework>3.3.x</Framework>
+    <Framework>4.0.x</Framework>
     <Vendor>Perl-Services.de</Vendor>
     <URL>http://www.perl-services.de</URL>
     <Description Lang="de">Objekte aus dem ITSM ChangeManagement (Changs und Workorders) mit FAQ-Einträgen verknüpfen</Description>
